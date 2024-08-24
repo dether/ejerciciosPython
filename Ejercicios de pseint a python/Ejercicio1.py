@@ -1,0 +1,6 @@
+print("Este algoritma, pide dos números y los suma.")
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
+print("La suma del primer número: ", num1)
+print("más el segundo número: ", num2)
+print("es igual a: ", num1 + num2)

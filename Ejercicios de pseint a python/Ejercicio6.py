@@ -1,0 +1,6 @@
+print("Diseñar un algoritmo que, ingresados tres números, calcule e imprima el promedio entre ellos. ")
+num1 = int(input("Ingrese el primer número para sacar un promedio: "))
+num2 = int(input("Ingrese el segundo número para sacar un promedio: "))
+num3 = int(input("Ingrese el tercer número para sacar un promedio: "))
+promedio = (num1 + num2 + num3)/(3)
+print("El promedio de los tres números ingresado es:", promedio)
