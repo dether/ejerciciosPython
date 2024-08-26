@@ -2,4 +2,4 @@ print("Escribir un programa que pida el nombre al usuario y muestre el saludo â€
 
 nombre = str(input("Ingrese su nombre: "))
 
-print("Hola",nombre)
+print(f"Hola {nombre}")
