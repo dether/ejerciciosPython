@@ -11,10 +11,10 @@ No es letra ni número.""")
 desconocido = input("Ingrese un caracter para analizarlo y dar información: ")
 
 if "0" <= desconocido <= "9":
-  print("El caracter es un número.")
+    print("El caracter es un número.")
 elif "a" <= desconocido <= "z":
-  print("Es letra minúscula. ")
+    print("Es letra minúscula. ")
 elif "A" <= desconocido <= "Z":
-  print("Es letra mayuscula.")
+    print("Es letra mayuscula.")
 else:
-  print("El caracter no es un número y una cadena.")
+    print("El caracter no es un número y una cadena.")

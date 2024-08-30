@@ -6,11 +6,12 @@ numero = int(input("Ingresa un número: "))
 muestra = "algoritmo muestra:"
 
 for i in range(0,numero,1):
-  if not i % 2 == 0: 
-    muestra = muestra + f" {i}"
-    if not i == (numero-2):
-      muestra = muestra + f","
-    else:
-      muestra = muestra + f"."
+    if not i % 2 == 0: 
+        muestra = muestra + f" {i}"
+
+        if not i == (numero-2):
+            muestra = muestra + f","
+        else:
+            muestra = muestra + f"."
 
 print(muestra)

@@ -6,5 +6,5 @@ Y que la muestre con el formato: A x B = C
 numero = int(input("Ingrese un número para multiplicarlo: "))
 
 for i in range (1,11):
-  producto = numero * i
-  print(f"{numero} x {i} = {producto}")
+    producto = numero * i
+    print(f"{numero} x {i} = {producto}")

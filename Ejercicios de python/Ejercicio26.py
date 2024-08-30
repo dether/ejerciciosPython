@@ -5,6 +5,6 @@ numeroMes = int(input("Ingrese el número de un mes (1 a 12): "))
 diasMes = [0,31,28,31,30,31,30,31,31,30,31,30,31]
 
 if numeroMes < 1 or numeroMes > 12:
-  print("El número ingresado es invalido, ingrese un número del (1 a 12)")
+    print("El número ingresado es invalido, ingrese un número del (1 a 12)")
 else:
-  print(f"En el mes {numeroMes} hay {diasMes[numeroMes]} días.")
+    print(f"En el mes {numeroMes} hay {diasMes[numeroMes]} días.")

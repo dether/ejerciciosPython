@@ -9,11 +9,11 @@ num2 = 0
 valor = True
 
 while valor:
-  num1 = float(input("Ingresa el primer número: "))
-  num2 = float(input("Ingrese el segundo número: "))
-  producto = num1 * num2
-  if not producto < 150:
-    print(f"El producto no es menor a 150. El producto es: {producto}")
-    valor = False
-  else:
-    print(f"El producto es menor a 150. Producto = {producto}")
+    num1 = float(input("Ingresa el primer número: "))
+    num2 = float(input("Ingrese el segundo número: "))
+    producto = num1 * num2
+    if not producto < 150:
+        print(f"El producto no es menor a 150. El producto es: {producto}")
+        valor = False
+    else:
+        print(f"El producto es menor a 150. Producto = {producto}")

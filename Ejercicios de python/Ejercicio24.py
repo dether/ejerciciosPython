@@ -7,12 +7,12 @@ orden = ""
 numero = int(input("Ingrese un número: "))
 
 while valor:
-  if numero < 1:
-    numero = int(input("El número no puede ser negativo o 0. Ingrese un número: "))
-  else:
-    valor =False
+    if numero < 1:
+        numero = int(input("El número no puede ser negativo o 0. Ingrese un número: "))
+    else:
+        valor =False
 
 for i in range(1,(numero+1)):
-  factorial = factorial * i
+    factorial = factorial * i
   
 print(f"El factorial de {numero} es: {factorial}.")

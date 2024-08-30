@@ -33,18 +33,18 @@ operador = input("Ingrese un operador:")
 valor = True
 
 if operador == "+":
-  resultado = num1 + num2
+    resultado = num1 + num2
 elif operador == "-":
-  resultado = num1 - num2
+    resultado = num1 - num2
 elif operador == "*":
-  resultado = num1 * num2
+    resultado = num1 * num2
 elif operador == "/":
-  resultado = num1 / num2
+    resultado = num1 / num2
 elif operador == "**":
-  resultado = num1 ** num2
+    resultado = num1 ** num2
 else: 
-  print(f"El operador ingresado, no es valido: {operador}")
-  valor= False
+    print(f"El operador ingresado, no es valido: {operador}")
+    valor= False
 
 if valor:
-  print(f"Operando: {num1}\nOperador: {operador}\nOperando: {num2}\n{num1} {operador} {num2} = {resultado}")
+    print(f"Operando: {num1}\nOperador: {operador}\nOperando: {num2}\n{num1} {operador} {num2} = {resultado}")

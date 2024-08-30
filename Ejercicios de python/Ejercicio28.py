@@ -12,3 +12,19 @@ Ingrese un anno: 1500
 Ingrese un anno: 2400
 2400 es bisiesto"""
 
+añoActual = int(input("Ingrese un año: "))
+#año juliano < 1582 
+# Bisiesto = tiene que ser divisible por 4
+#año gregoriano > 1581.
+# Bisiesto = (tiene que ser divisible por 400) o ((divisible por 4) y (no divisible por 100))
+if añoActual < 1582:
+    if añoActual % 4 == 0:
+        print(f"El año ingresado:{añoActual}. Pertenece al Calendario Juliano y es bisiesto.")
+    else:
+        print(f"El año ingresado {añoActual}. Pertenece al Calendario Juliano y  no es bisiesto.")
+elif añoActual > 1581:
+    if (añoActual % 400 == 0) or ((añoActual % 4 == 0) and not (añoActual % 100 == 0)):
+        print(f"El año ingresado:{añoActual}. Pertenece al Calendario Gregoriano y es bisiesto.")
+    else:
+        print(f"El año ingresado {añoActual}. Pertenece al Calendario Gregoriano y no es bisiesto.")
+
