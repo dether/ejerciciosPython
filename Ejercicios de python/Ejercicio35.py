@@ -10,3 +10,10 @@
     9  18  27  36  45  54  63  72  81  90
     10  20  30  40  50  60  70  80  90 100
 Los números deben estar alineados a la derecha."""
+
+for i in range(1,11):
+    for j in range(1,11):
+        # el :2 define que ocupe 2 lugares si o si cada valor.
+        print(f"{i * j:2}", end=" ")
+    # pega un salto de linea.
+    print()

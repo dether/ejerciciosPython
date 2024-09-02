@@ -1,4 +1,4 @@
-print("Escribir un programa que convierta un número ingresado de segundos en el equivalente de minutos y segundos.")
+""" Escribir un programa que convierta un número ingresado de segundos en el equivalente de minutos y segundos. """
 
 segundos = int(input("Ingrese un número: "))
 minutos = 0

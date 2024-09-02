@@ -1,4 +1,4 @@
-print("Escribir las siguientes expresiones matemáticas como expresiones de computadora:")
+""" Escribir las siguientes expresiones matemáticas como expresiones de computadora: """
 x = 3
 y = 5
 z = 4

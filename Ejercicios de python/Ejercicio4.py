@@ -1,4 +1,4 @@
-print("Escribir un programa que solicite al usuario la longitud y anchura de un rectángulo y a continuación visualice su superficie con cuatro decimales")
+"""Escribir un programa que solicite al usuario la longitud y anchura de un rectángulo y a continuación visualice su superficie con cuatro decimales """
 
 longitud = float(input("Ingrese la longitud del rectángulo: "))
 anchura = float(input("Ingrese la anchura del rectángulo: "))

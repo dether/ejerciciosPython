@@ -1,5 +1,5 @@
 from datetime import datetime
-print("Escriba un programa que entregue la edad del usuario a partir de su fecha de nacimiento:")
+"""Escriba un programa que entregue la edad del usuario a partir de su fecha de nacimiento:"""
 
 añoNacimiento = int(input("Ingrese el año en el que nacio: "))
 mesNacimiento = int(input("Ingrese el mes en el que nacio: "))

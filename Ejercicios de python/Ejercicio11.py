@@ -1,5 +1,5 @@
 import math
-print("Escribir un programa que lea las longitudes de los dos lados perpendiculares de un triángulo rectángulo y calcule el área y el perímetro del triangulo. Usar el teorema de Pitágoras para calcular la longitud del tercer lado.")
+""" Escribir un programa que lea las longitudes de los dos lados perpendiculares de un triángulo rectángulo y calcule el área y el perímetro del triangulo. Usar el teorema de Pitágoras para calcular la longitud del tercer lado. """
 
 a = float(input("Ingrese el valor del lado a: "))
 b = float(input("Ingrese el valor del lado b: "))

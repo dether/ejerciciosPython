@@ -6,5 +6,4 @@ cantidadPotencia = int(input("Ingrese un número: "))
 base = 2
 resultado = []
 for i in range(0, cantidadPotencia+1):
-    resultado.append(base**i)
-print(resultado)
+    print(base**i, end=" ")

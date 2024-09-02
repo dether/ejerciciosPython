@@ -1,6 +1,6 @@
 import math
 
-print("Escribir un programa que lea el radio de un círculo y a continuación visualice: circunferencia del círculo, área del círculo o diámetro del círculo.")
+"""Escribir un programa que lea el radio de un círculo y a continuación visualice: circunferencia del círculo, área del círculo o diámetro del círculo."""
 
 radio = float(input("Ingrese el radio de un círculo: "))
 pi = math.pi

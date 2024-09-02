@@ -1,6 +1,6 @@
-print("""Según el teorema de Pitágoras, la relación entre los lados (a, b) de un triángulo rectángulo y la hipotenusa (h) viene dada por la fórmula.       
+"""Según el teorema de Pitágoras, la relación entre los lados (a, b) de un triángulo rectángulo y la hipotenusa (h) viene dada por la fórmula.       
       a**2 + b**2 = h**2 
-Escribir un programa que lea la longitud de los lados y calcule la hipotenusa""")
+Escribir un programa que lea la longitud de los lados y calcule la hipotenusa"""
 import math
 
 a = float(input("Ingrese el valor del lado a: "))

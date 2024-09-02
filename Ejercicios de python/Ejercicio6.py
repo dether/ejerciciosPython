@@ -1,4 +1,4 @@
-print("Escribir un programa que lea dos enteros de dos dígitos y calcule e imprima su producto, cociente y el resto cuando el primero se divide por el segundo.")
+"Escribir un programa que lea dos enteros de dos dígitos y calcule e imprima su producto, cociente y el resto cuando el primero se divide por el segundo."
 
 num1 = 1
 num2 = 1

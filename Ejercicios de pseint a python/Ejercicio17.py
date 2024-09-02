@@ -1,6 +1,6 @@
 import random
 
-print("Diseñar un algoritmo que genere un número secreto aleatorio entre 1 y 100 (usar numero = Aleatorio(1,100)). El usuario debe tener 7 intentos para adivinarlo. Luego de cada intento se le debe indicar si el número secreto es mayor o menor al ingresado. El usuario gana cuando el número ingresado es igual al secreto. ")
+"""Diseñar un algoritmo que genere un número secreto aleatorio entre 1 y 100 (usar numero = Aleatorio(1,100)). El usuario debe tener 7 intentos para adivinarlo. Luego de cada intento se le debe indicar si el número secreto es mayor o menor al ingresado. El usuario gana cuando el número ingresado es igual al secreto. """
 
 secreto = random.randint(1,100)
 numero = 1

@@ -1,4 +1,4 @@
-print("Realizar un programa que lea 20 números (entre el 1 y el 10) y muestre aquel o aquellos que hayan aparecido más veces. ")
+"""Realizar un programa que lea 20 números (entre el 1 y el 10) y muestre aquel o aquellos que hayan aparecido más veces. """
 
 # Con esta lista vamos a contar las cantidades y dependiendo de la posición "i" sera el número
 # 0-9 = 1-10 ... 0 = 1, 1 = 2, ..., 9 = 10.
