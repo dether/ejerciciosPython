@@ -4,3 +4,5 @@ dígitos enteros y 2 decimales."""
 nombre = input("Ingrese el nombre del producto: ")
 precio = float(input("Ingrese su precio: "))
 unidades = int(input("Ingrese el número de unidades: "))
+total = precio * unidades
+print(f"Producto: {nombre.capitalize()}, Precio: $ {precio:09.02f}, Unidadades: {unidades:03.0f}, Total: {total:011.2f}")
