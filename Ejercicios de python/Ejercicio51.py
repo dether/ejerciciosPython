@@ -59,6 +59,7 @@ while (reglas):
                 puntaje[0] += 1
                 print(f"{puntaje[0]} - {puntaje[1]}")
             else:
+                print(f"Computadora: {jugada_computadora}")
                 print("Empate, de nuevo!")
 
         elif jugada == "piedra":
@@ -72,6 +73,7 @@ while (reglas):
                 puntaje[0] += 1
                 print(f"{puntaje[0]} - {puntaje[1]}")
             else:
+                print(f"Computadora: {jugada_computadora}")
                 print("Empate, de nuevo!")
 
         elif jugada == "tijera":
@@ -85,7 +87,10 @@ while (reglas):
                 puntaje[1] += 1
                 print(f"{puntaje[0]} - {puntaje[1]}")
             else:
+                print(f"Computadora: {jugada_computadora}")
                 print("Empate, de nuevo!")
+        else: 
+            print("Valor ingresado invalido, ingrese una de las siguientes opciones: tijera, piedra o papel")
     print("")
 
 """ puntaje[0] = puntaje[0] + 2

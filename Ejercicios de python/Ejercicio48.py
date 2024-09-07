@@ -34,7 +34,7 @@ fila = int(input("Fila: "))
 columna = int(input("Columna: "))
 # anoto todos los posibles movimientos. 
 movimientos = [(2, 1), (2, -1), (-2, 1), (-2, -1),(1, 2), (1, -2), (-1, 2), (-1, -2)]
-movimientos = [(-1, -2), (-1, 2), (1, -2),(1, 2), (-2, -1), (-2, 1), (2, -1), (2, 1)]
+futurosMovimientos = []
 
 if ((fila > 8) or (fila < 1)) or ((columna < 1) or columna > 8):
     print("Posición invalida.")
@@ -46,32 +46,24 @@ else:
         filaNueva = fila + i[0]
         columnaNueva = columna + i[1]
         if 0 < filaNueva < 9 and 0 < columnaNueva < 9:
-            print(filaNueva, columnaNueva)
+            futurosMovimientos.append([filaNueva, columnaNueva])
 
-""" if ((fila > 8) or (fila < 1)) or ((columna < 1) or columna > 8):
-    print("Posición invalida.")
-else:
-    print(f"El caballo puede saltar de {fila} {columna} a: ")
-    if (((fila - 2) > 0) and ((columna + 1) < 9)):
-        print(fila-2, columna+1)
+    n = len(futurosMovimientos)
 
-    if (((fila - 2) > 0) and ((columna - 1 > 0))):
-        print(fila-2, columna-1)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            # Comparamos por fila, y si las filas son iguales, comparamos por columna
+            if futurosMovimientos[j][0] > futurosMovimientos[j+1][0] or (futurosMovimientos[j][0] == futurosMovimientos[j+1][0] and futurosMovimientos[j][1] > futurosMovimientos[j+1][1]):
+                # Intercambiamos los pares si es necesario
+                futurosMovimientos[j], futurosMovimientos[j+1] = futurosMovimientos[j+1], futurosMovimientos[j]
 
-    if (((columna - 2) > 0) and ((fila + 1) < 9)):
-        print(fila+1, columna-2)
+    # Imprimir los pares ordenados
+    for par in futurosMovimientos:
+        print(par[0], par[1])
 
-    if (((columna - 2) > 0) and ((fila - 1 > 0))):
-        print(fila-1, columna-2)
+        #con sorted
+    """ futurosMovimientosOrdenados = sorted(futurosMovimientos)
 
-    if (((fila + 2) < 9) and ((columna + 1) < 9)):
-        print(fila+2, columna+1)
+    for fila, columna in futurosMovimientosOrdenados:
+        print(fila, columna) """
 
-    if (((fila + 2) < 9) and ((columna - 1) > 0)):
-        print(fila+2, columna-1)
-
-    if (((columna + 2) < 9) and ((fila + 1) < 9)):
-        print(fila+1, columna+2)
-
-    if (((columna + 2) < 9) and ((fila - 1) > 0)):
-        print(fila-1, columna+2) """

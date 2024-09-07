@@ -23,16 +23,16 @@ c. Escriba un programa que muestre los m primeros números de Fibonacci, donde m
     Los 7 primeros numeros de Fibonacci son:
     0 1 1 2 3 5 8"""
 #!a
-""" n = int(input("Ingrese n: "))
+n = int(input("Ingrese n: "))
 
 a, b = 0, 1
 # no vamos a usar una variable de iteración
 for _ in range(n):
     a, b = b, a + b
-print(f"F{n} = {a}") """
+print(f"F{n} = {a}")
 #!-----------------------------------------------
 #?b
-""" numero = int(input("Ingrese un numero: "))
+numero = int(input("Ingrese un numero: "))
 
 a, b = 0, 1
 valor = False
@@ -44,7 +44,7 @@ while a <= numero:
 if valor:
     print(f"{numero} es número de Fibonacci")
 else:
-    print(f"{numero} no es número de Fibonacci") """
+    print(f"{numero} no es número de Fibonacci")
 #?----------------------------------------------------------------
 #!c
 numero = int(input("Ingrese m: "))

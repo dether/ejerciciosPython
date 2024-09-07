@@ -15,14 +15,22 @@ La entrada del programa debe ser un número entero que indique cuántos término
     3.140592653839794"""
 
 numero = int(input("Ingrese un número: "))
-divisiones = 1
-
-for i in range(3,numero+2):
-    #print(i)
-    if i % 2 == 0:
-        divisiones = divisiones + (1/i)
-        #print(+1/i)
+suma = 1
+valor = True #Bandera
+for i in range(3,numero*2,2):
+    #print(f"i: {(1+i)/2}")
+    #Siempre va a ingresar en la primer condición y 
+    if valor:
+        #print(f"suma = {suma} - 1/{i} ")
+        suma = suma - (1/i)
+        valor = False 
+        #print(f"suma = {suma}")
     else:
-        divisiones= divisiones - (1/i)
-        #print(-1/i)
-print(4*divisiones) 
+        #print(f"suma = {suma} + 1/{i} ")
+        suma = suma + (1/i)
+        valor = True
+        #print(f"suma = {suma}")
+
+#print(f"suma = {suma} * 4 = {4*suma}")
+print(f"El valor de pi es: {suma*4}")
+

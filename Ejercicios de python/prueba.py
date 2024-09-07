@@ -25,10 +25,10 @@ for i in range(-len(codigo),0):
 # num= 123, reverse= 321, i=0(posición), digito=3(toma el primer digito) 
 for i in range(len(reverse)):
     digito = int(reverse[i])
-    #print(f"i: {i}, digito:{digito}")
+    print(f"i: {i}, digito:{digito}")
     # factor = array[i%6] siempre va a dar valores de 0-5 incrementandose
     factor = digitos[i % len(digitos)]
-    #print(f"digitos:{digitos} [i:{i} % {len(digitos)} = {i%len(digitos)}], factor: {factor}")
+    print(f"digitos:{digitos} [i:{i} % {len(digitos)} = {i%len(digitos)}], factor: {factor}")
     total = total + (digito * factor)
 #4
 total = total % 11
