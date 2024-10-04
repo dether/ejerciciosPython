@@ -12,6 +12,7 @@ mi_lista[0] = 10  # Cambia el primer elemento a 10
 
 #*Agregar Elementos: 
 #!append(): Agrega al final de la lista.
+mi_lista = [1, 2, 3, 4, 5]
 mi_lista.append(6)  # [10, 2, 3, 4, 5, 6]
 
 #!insert(): Agrega en una posición específica.
