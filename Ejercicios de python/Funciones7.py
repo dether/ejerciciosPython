@@ -53,5 +53,3 @@ def pedirNumeros ():
     print(f"El MCD de los números ingresados, es {mcd}.")
 
 pedirNumeros()
-
-#falta que adapte la funcion de arriba y hago un programa principal abajo.
