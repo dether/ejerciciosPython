@@ -1,29 +1,24 @@
-""" El día juliano correspondiente a una fecha es un número entero que indica los días que han transcurrido desde el 1 de enero del año indicado. Queremos crear un programa principal que al introducir una fecha nos diga el día juliano que corresponde. Para ello podemos hacer las siguientes subrutinas:
-• LeerFecha: Nos permite leer por teclado una fecha (día, mes y año). 
-• DiasDelMes: Recibe un mes y un año y nos dice los días de ese mes en ese año. 
-• EsBisiesto: Recibe un año y nos dice si es bisiesto. 
-• Calcular_Dia_Juliano: recibe una fecha y nos devuelve el día juliano."""
-
-#n° juliano = divisible entre 4 y entre 400.
-# .5 si es mediodia y .6 si es medianoche.
+""" Vamos a mejorar el ejercicio anterior haciendo una función para validar la fecha. De tal forma que al 
+leer una fecha se asegura que es válida."""
 
 def LeerFecha ():
-    tresUno = [1, 3, 5, 7, 8, 10, 12]
-    tresCero = [4, 6, 9, 11]
     dia = int(input("Ingrese un número entero, para el día: "))
     mes = int(input("Ingrese un número entero, para el mes: "))
     anio = int(input("Ingrese un número entero, para el anio: "))
-    if dia > 31 or dia < 1:
-        return"Valor incorrecto, ingrese un número entero entre 1-31. ❌"
-    if mes < 1 or mes > 12:
-        return "El mes debe ser un número entre 1 y 12. Inténtalo de nuevo. ❌"
-    elif mes == 2 and (dia == 30 or dia == 31):
-        return"El mes 2 solo puede tener 28 o 29 días. Inténtalo de nuevo. ❌"
-    elif mes in tresCero and dia == 31:
-        return"El mes ingresado solo puede tener 30 días como maximo. Inténtalo de nuevo. ❌"
-    
     return dia, mes, anio
 
+def FechaValida(dia, mes, anio):
+    tresCero = [4, 6, 9, 11]
+    if dia < 1 or dia > 31 or mes < 1 or mes > 12:
+        return False
+    if mes == 2 and (dia == 30 or dia == 31):
+        return False
+    if mes == 2 and not(EsBisiesto(anio)) and dia == 29:
+        return False
+    if mes in tresCero and dia == 31:
+        return False
+    return True
+    
 def EsBisiesto(anio: int):
     if anio % 4 == 0:  
         if anio % 100 == 0:  
@@ -103,13 +98,15 @@ while True:
     elif opcion == 3:
         while True:
             try:
-                resultado = LeerFecha()
-                if type(resultado) == str:
-                    print(resultado)
+                dia, mes, anio = LeerFecha()
+                resultado = FechaValida(dia, mes, anio)
+                if not resultado:
+                    print("Fecha ingresada no valida.")
                     continue
 
-                dia_juliano = Calcular_Dia_Juliano(resultado[0], resultado[1], resultado[2])
-                print(f"El día juliano de la fecha: {resultado[0]}/{resultado[1]}/{resultado[2]} es: {dia_juliano}. ✔️")
+
+                dia_juliano = Calcular_Dia_Juliano(dia, mes, anio)
+                print(f"El día juliano de la fecha: {dia}/{mes}/{anio} es: {dia_juliano}. ✔️")
                 break
             except ValueError:
                 print("Valores incorrectos, ingrese un número entero o una fecha valida por favor. 🤯")
