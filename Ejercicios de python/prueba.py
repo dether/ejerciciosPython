@@ -150,7 +150,7 @@ if longitud > 0: # 4 > 0
         inverso.append(lista[num]) # accedemos a la lista tomando a num como indice
         num = num - 1 # vamos moviendonos
 print(inverso) """
-lista = [1,2,3,4]
+""" lista = [1,2,3,4]
 inverso = ""
 for i in lista:
     # str(transformamos cada numero en string)
@@ -164,4 +164,13 @@ print(inversoListaString) # ['4', '3', '2', '1'] si queremos que sean numeros
 #hacemos lo mismo pero agregamos int(lo que queremos transformar en entero.)
 for i in inverso:
     inversoListaEntero.append(int(i))
-print(inversoListaEntero) # [4, 3, 2, 1] ahora es una lista de numeros
+print(inversoListaEntero) # [4, 3, 2, 1] ahora es una lista de numeros """
+
+list2 = [1,2,3,4,5]
+""" list2[0]
+print(list2[1]) """
+""" diccionario = { "a": 1, "b":2} """
+""" print(diccionario.object.key("a")) """
+
+print(len("holaa"))
+print(list2[-2])
