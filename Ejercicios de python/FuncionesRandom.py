@@ -244,3 +244,133 @@ def encontrarMayorMenor(lista):
     return (max,min)
 asd20 = encontrarMayorMenor([1,2,3,4,5])
 print(asd20)
+
+"""Crea una función IntercambiarParesImpares que reciba una lista y devuelva una nueva lista donde se hayan intercambiado los elementos en posiciones pares con los elementos en posiciones impares. Si la lista tiene longitud impar, el último elemento queda igual."""
+
+def intercambiarParesImpares(lista):
+    nuevaLista = []
+    cantidad = 0
+    for elemento in lista:
+        cantidad += 1
+    for i in range(cantidad):
+        if i % 2 == 0:
+            if i + 1 < cantidad:
+                nuevaLista.append(lista[i+1])
+            else:
+                nuevaLista.append(lista[i])
+        if i % 2 != 0:
+            nuevaLista.append(lista[i-1])
+    print("Lista original:", lista)
+    print("Lista intercambiada:", nuevaLista)
+    return nuevaLista
+asd21 = intercambiarParesImpares([1,2,3,4,5,6])
+
+"""Desarrolla una función CuadradosHastaN que reciba un número entero n y devuelva una lista con los cuadrados de todos los números del 1 al n."""
+
+def cuadradosHastaN(numero: int):
+    lista = []
+    for i in range(numero):
+        lista.append((i+1)**2)
+    print(lista)
+    return lista
+asd22 = cuadradosHastaN(10)
+
+"""Escribe una función EncontrarSubcadena que reciba dos cadenas, una principal y otra secundaria, y devuelva True si la cadena secundaria está contenida en la principal, y False si no."""
+
+def encontrarSubcadena (cadena1:str, cadena2:str) -> bool:
+    if cadena2 in cadena1:
+        print(True)
+        return True
+    else:
+        print(False)
+        return False
+asd23 = encontrarSubcadena("hola, como estas?", "p") #False
+
+"""Crea una función InvertirLista que reciba una lista y devuelva una nueva lista con los elementos en orden inverso, sin usar el método reverse()."""
+def invertirLista(lista:list):
+    nuevaLista = []
+    cantidad = 0
+    for elemento in lista:
+        cantidad += 1
+    for i in range(cantidad -1 , -1, -1):
+        nuevaLista.append(lista[i])
+    print(lista)
+    print(nuevaLista)
+    return nuevaLista
+asd24 = invertirLista(["a",1,2.2,"F"])
+
+"""Desarrolla una función EsPrimo que reciba un número entero y determine si es primo o no (un número primo es aquel que solo es divisible por 1 y por sí mismo)."""
+
+def esPrimo(numero:str) -> bool:
+    if numero < 2:
+        print(False)
+        return False
+    for i in range(2, int(numero**0.5) + 1):
+        if numero % i == 0:
+            print(False)
+            return False
+    print(True)
+    return True
+asd25 = esPrimo(7)
+
+"""Crea una función OrdenarBurbuja que implemente el algoritmo de ordenamiento burbuja para una lista de números y devuelva la lista ordenada de menor a mayor."""
+""" def ordenarBurbuja(lista:list[int]) -> list[int]:
+    nuevaLista = []
+    cantidad = 0
+    for elemento in lista:
+        cantidad += 1
+    for i in range(cantidad):
+        for j in rang 
+asd26 = 0"""
+
+"""Escribe una función IntercalarListas que reciba dos listas de igual longitud y devuelva una nueva lista que intercale los elementos de ambas listas."""
+def intercalarLisas(lista1:list, lista2:list) -> list:
+    nuevaLista = []
+    cantidad1 = 0
+    cantidad2 = 0
+    for i in lista1:
+        cantidad1 += 1
+    for i in lista2:
+        cantidad2 += 1
+    if cantidad1 == cantidad2:
+        for i in range(cantidad2):
+            nuevaLista.append(lista2[i])
+            nuevaLista.append(lista1[i])
+        print(lista1)
+        print(lista2)
+        print(nuevaLista)
+        return nuevaLista
+    print("Las listas no tienen longitudes diferentes.")
+    return "Las listas tienen longitudes diferentes."
+asd27 = intercalarLisas([1,2,3,4,5], [6,7,8,9,10,11])
+
+"""Desarrolla una función SumarMatrices que reciba dos matrices representadas como listas de listas y devuelva una nueva matriz que sea la suma de ambas."""
+asd28 = 0
+
+"""Crea una función FrecuenciaCaracteres que reciba una cadena y devuelva un diccionario donde las claves sean los caracteres y los valores sean la cantidad de veces que aparecen en la cadena."""
+def frecuenciaCaracteres(cadena:str) -> dict:
+    diccionario = {}
+    for letra in cadena:
+        if letra in diccionario:
+            diccionario[letra] += 1
+        else:
+            diccionario[letra] = 1
+    print(diccionario)
+    return diccionario
+asd29 = frecuenciaCaracteres("hola como estas?")
+
+"""Escribe una función NumeroCapicua que reciba un número entero y determine si es capicúa (se lee igual de izquierda a derecha que de derecha a izquierda)."""
+def numeroCapicua(numero:int) -> str:
+    numeroCaracter = str(numero)
+    inverso = ""
+    for i in numeroCaracter:
+        inverso = i + inverso
+    # si quisieramos volver a transformar la cadena en string:
+    inverso = int(inverso)
+    if numero == inverso:
+        print("El numero es capicúa")
+        return "El numero es capicúa"
+    else:
+        print("El numero no es capicúa")
+        return "El numero no es capicúa"
+asd30 = numeroCapicua(21)
