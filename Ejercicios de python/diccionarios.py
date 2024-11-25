@@ -56,7 +56,9 @@ diccionarioLleno.update(otro_diccionario)
 #si colocalas solo la clave, te trae el valor y visceverza 
 valor = diccionarioLleno.get('clave_inexistente', 'valor_predeterminado')
 #print(diccionarioLleno)
-#print(valor)
+print("valor", valor)
+
+
 
 #*************************************************************************
 #*Avanzado

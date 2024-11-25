@@ -1,0 +1,84 @@
+                                                                              
+FECHA    | PRODUCTO  |    MARCA    |  VENTA   | COMPRA |CANT| DISTRIBUIDOR     
+-----------------------------------------------------------------------       
+05062023   Impresora    SmartLine     729.13    402.36   75   Distribuidor B  
+22072020   Laptop       TechBrand     903.87    745.62   18   Distribuidor E  
+27062020   Impresora    SmartLine     487.45    290.16   34   Distribuidor D  
+12102020   Router       ElectroCorp   441.68    273.28    6   Distribuidor A  
+07032022   Teclado      DataWare      129.21     99.95   97   Distribuidor E  
+01122022   Memoria USB  NextGen       166.99     99.86   97   Distribuidor D  
+05012022   Impresora    GigaStore     175.26     91.24   98   Distribuidor E  
+09022020   Mouse        ElectroCorp   883.70    649.29   81   Distribuidor D  
+01032020   Smartphone   ProTech       928.33    816.26   52   Distribuidor A  
+19112022   Teclado      SmartLine     574.67    515.58   37   Distribuidor D  
+05072020   Router       NextGen       756.35    408.09   46   Distribuidor C  
+21122021   Smartphone   DataWare      889.08    546.63   29   Distribuidor B  
+28032020   Monitor      TechBrand     842.77    548.61   50   Distribuidor D  
+16022021   Impresora    CompuPlus     310.70    216.30   99   Distribuidor A  
+16092020   Router       CompuPlus     180.23    124.54   26   Distribuidor D  
+23122022   Memoria USB  DataWare      423.18    325.84   79   Distribuidor B  
+08072021   Router       GigaStore     903.06    515.42   24   Distribuidor C  
+24112020   Smartphone   CompuPlus     444.58    357.71   58   Distribuidor D  
+07012022   Memoria USB  DataWare      710.40    599.09   52   Distribuidor C  
+05022022   Teclado      DataWare      284.37    169.88   10   Distribuidor C  
+05062023   Impresora    SmartLine     729.13    402.36   75   Distribuidor B  
+22072020   Laptop       TechBrand     903.87    745.62   18   Distribuidor E  
+27062020   Impresora    SmartLine     487.45    290.16   34   Distribuidor D  
+12102020   Router       ElectroCorp   441.68    273.28    6   Distribuidor A  
+07032022   Teclado      DataWare      129.21     99.95   97   Distribuidor E  
+01122022   Memoria USB  NextGen       166.99     99.86   97   Distribuidor D  
+05012022   Impresora    GigaStore     175.26     91.24   98   Distribuidor E  
+09022020   Mouse        ElectroCorp   883.70    649.29   81   Distribuidor D  
+01032020   Smartphone   ProTech       928.33    816.26   52   Distribuidor A  
+19112022   Teclado      SmartLine     574.67    515.58   37   Distribuidor D  
+05072020   Router       NextGen       756.35    408.09   46   Distribuidor C  
+21122021   Smartphone   DataWare      889.08    546.63   29   Distribuidor B  
+28032020   Monitor      TechBrand     842.77    548.61   50   Distribuidor D  
+16022021   Impresora    CompuPlus     310.70    216.35   99   Distribuidor A  
+16092020   Router       CompuPlus     180.23    124.54   26   Distribuidor D  
+23122022   Memoria USB  DataWare      423.18    325.84   79   Distribuidor B  
+08072021   Router       GigaStore     903.06    515.42   24   Distribuidor C  
+24112020   Smartphone   CompuPlus     444.58    357.71   58   Distribuidor D  
+07012022   Memoria USB  DataWare      710.40    599.09   52   Distribuidor C  
+05022022   Teclado      DataWare      284.37    169.88   10   Distribuidor C  
+15052023   Monitor      VisionPro    1023.50    750.60   32   Distribuidor G  
+26062021   Smartphone   NovaTech      799.99    699.99   45   Distribuidor J  
+15062023   Impresora    PrintMaster   432.10    312.75   68   Distribuidor A  
+24052021   Laptop       SuperTech    1135.45    978.22   24   Distribuidor B  
+05082021   Teclado      KeyWorks      129.85     89.4   118   Distribuidor C  
+22052022   Router       NetPro        256.37    168.29   51   Distribuidor D  
+01082022   Smartphone   MobileXpress  799.22    695.84   39   Distribuidor B  
+14092022   Monitor      VisionPro     615.34    420.99   63   Distribuidor E  
+25042021   Impresora    PrintMaster   382.11    290.77   84   Distribuidor C  
+06062020   Teclado      Logitech      145.65    105.79  110   Distribuidor A  
+17012021   Router       HomeNet       272.50    189.45   42   Distribuidor D  
+29032022   Memoria USB  DataStore     187.33    130.48   72   Distribuidor E  
+08062020   Smartphone   TechPhone     738.99    610.72   33   Distribuidor C  
+11022021   Monitor      ClearVision   491.40    365.55   55   Distribuidor B  
+19052021   Impresora    PrintWorks    340.45    219.11   61   Distribuidor A  
+15012023   Laptop       UltraTech    1245.99    987.32   15   Distribuidor D  
+17082020   Teclado      TypoMaster    152.22    116.30   89   Distribuidor B  
+23092020   Smartphone   GalaxyMax     890.99    740.56   48   Distribuidor A  
+01042021   Memoria USB  FlashKing     219.77    145.25   61   Distribuidor C  
+07062020   Monitor      TechView      520.88    420.21   54   Distribuidor E  
+21072020   Impresora    QuickPrint    495.20    379.88   80   Distribuidor D  
+14012022   Teclado      KeyMaster     189.76    139.42  104   Distribuidor A  
+28032022   Smartphone   SpeedPhone    990.44    845.67   28   Distribuidor E  
+22082021   Router       LinkPro       319.55    234.29   63   Distribuidor B  
+04092020   Laptop       ProTech       895.1     710.34   21   Distribuidor C  
+12052021   Impresora    SmartLine     650.0     400.01   30   Distribuidor C  
+15062022   Laptop       TechBrand    1020.0     800.06   20   Distribuidor B  
+25052020   Monitor      ElectroCorp   350.0     250.05   40   Distribuidor E  
+13032021   Teclado      GigaStore     120.0      80.06   60   Distribuidor D  
+20042022   Router       ProTech       500.0     350.07   35   Distribuidor A  
+07082021   Smartphone   DataWare      800.0     600.08   50   Distribuidor C  
+19052020   Memoria USB  NextGen       150.0     100.09   70   Distribuidor E  
+05072021   Laptop       ElectroCorp   980.0     700.01   15   Distribuidor D  
+06092020   Teclado      SmartLine     150.0     110.02   80   Distribuidor B  
+22052021   Impresora    ProTech       720.0     450.03   55   Distribuidor A  
+12062020   Smartphone   GigaStore     850.0     650.04   30   Distribuidor D  
+01072022   Router       TechBrand     400.0     250.05   40   Distribuidor B  
+18052022   Memoria USB  ProTech       170.0     120.06   65   Distribuidor C  
+03062021   Monitor      DataWare      300.0     220.07   60   Distribuidor E  
+05092022   Teclado      ElectroCorp   135.0      95.08   75   Distribuidor D  
+07012021   Smartphone   NextGen       950.0     700.09   40   Distribuidor A  
