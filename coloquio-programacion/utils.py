@@ -1,3 +1,4 @@
+# Viejo
 # print(linea[0:12])        # Pilotos
 # print(linea[12:48])       # Equipos
 # print(linea[48:61])       # Bahréin
@@ -21,6 +22,33 @@
 # print(linea[265:277])     # EE.UU
 # print(linea[277:289])     # México
 # print(linea[289:296])     # Brasil
+
+
+"""
+# NUEVO
+prueba.append(int(linea[52:54]))  # Bahréin
+prueba.append(int(linea[64:66]))  # Arabia
+prueba.append(int(linea[76:78]))  # Australia
+prueba.append(int(linea[88:90]))  # Japón
+prueba.append(int(linea[100:102]))  # China
+prueba.append(int(linea[112:114]))  # Miami
+prueba.append(int(linea[124:126]))  # Imola
+prueba.append(int(linea[136:138]))  # Mónaco
+prueba.append(int(linea[148:150]))  # Canadá
+prueba.append(int(linea[160:162]))  # Barcelona
+prueba.append(int(linea[172:174]))  # Austria
+prueba.append(int(linea[184:186]))  # Inglaterra
+prueba.append(int(linea[196:198]))  # Hungria
+prueba.append(int(linea[208:210]))  # Bélgica
+prueba.append(int(linea[220:222]))  # P. Bajos
+prueba.append(int(linea[232:234]))  # Italia
+prueba.append(int(linea[244:246]))  # Aserbajian
+prueba.append(int(linea[256:258]))  # Singapur
+prueba.append(int(linea[268:270]))  # EE.UU
+prueba.append(int(linea[280:282]))  # México
+prueba.append(int(linea[292:294]))  # Brasil
+
+"""
 
 
 POSICION_PUNTAJES = {
